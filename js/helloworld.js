@@ -8,8 +8,12 @@ let newElement = document.createElement('h3');
 let p1 = document.createElement ('p');
 newElement.textContent = 'Hi my name is Brandon also known as "Sprout"';
 p1.textContent = 'This my first attempt at learning JavaScript, and embedding the code into HTML for you to see. Below are some examples of the code I am learning. On day one it was learning the syntax of differnt variables, strings, numbers, and arrays. How to print them to the screen. I also had to learn how to embed the code into this HTML file for you to see. Special thanks to Jim9112 in SNHUcoders Slack channel for helping me work this out. More to come on Day Two.';
+
+//let p2 = document.createElement {'p');
+//p2.textContent = 'Today I set out to change the sytle.css page. I started by learning some of the structure of CSS and how to correct the syntax of the CSS code.';
 theBody.append(newElement);
 theBody.append(p1);
+//theBody.append(p2);
 
 
 var myNumber = 3;                   // a number
