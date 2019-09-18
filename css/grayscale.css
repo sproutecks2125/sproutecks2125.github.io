@@ -178,11 +178,12 @@
 
 .blogPosts-section {
   padding: 5rem 0 0;
+  background: url("../img/notebookpaper.jpg") fixed;
 }
 
 .blogPosts-section .card {
   margin-bottom: 5rem;
-  background: url("../img/notebookpaper.jpg");
+  background: white;
   border-style: solid;
   border-color: black;
   border-width: 0.1rem;
