@@ -176,6 +176,26 @@
   margin-bottom: 5rem;
 }
 
+.blogPosts-section {
+  padding: 5rem 0 0;
+}
+
+.blogPosts-section .card {
+  margin-bottom: 5rem;
+  background: url("../img/notebookpaper.jpg");
+  border-style: solid;
+  border-color: black;
+  border-width: 0.1rem;
+  border-radius: 10%;
+}
+
+.blogPosts-section .card h4 {
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
 .projects-section {
   padding: 10rem 0;
 }
