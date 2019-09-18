@@ -177,12 +177,12 @@
 }
 
 .blogPosts-section {
-  padding: 5rem 0 0;
+  padding: 5rem;
   background: url("../img/notebookpaper.jpg") fixed;
 }
 
 .blogPosts-section .card {
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
   background: white;
   border-style: solid;
   border-color: black;
@@ -190,7 +190,7 @@
   border-radius: 10%;
 }
 
-.blogPosts-section .card h4 {
+.blogPosts-section .card h3 {
   font-size: 0.8rem;
   font-family: 'Varela Round';
   text-transform: uppercase;
