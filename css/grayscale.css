@@ -197,6 +197,20 @@
   letter-spacing: 0.15rem;
 }
 
+.blogPosts-section .code {
+  font-size: 0.8rem;
+  text-align: left;
+  border-style: solid;
+  border-color: black;
+  border-width: 0.05rem;
+  border-radius: 1%;
+}
+
+.blogPosts-section .code ul {
+  padding: 0.5rem;
+  list-style-type: none;
+}
+
 .projects-section {
   padding: 10rem 0;
 }
