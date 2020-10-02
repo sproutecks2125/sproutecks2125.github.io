@@ -81,6 +81,7 @@
             <li><a href="#post7">CTFs, NCL, and RevEng</a></li>
             <li><a href="#post8">Business Networking Attributes (Not LinkedIn)</a></li>
             <li><a href="#post9">Networking Layer (Finance)</a>
+            <li><a href="#post10">Arch Net: Connecting Worlds Throughout the World</a>
           </ol>
         </div>
       </div>
@@ -296,6 +297,43 @@
           <p>In the financial industry, there are internal networks (intranet) and external networks (internet). When processing a payment from a client the bank teller receives the money from the external client into the internal network. This payment is then passed to a savings location internally. Maybe a message is sent to another department inside the bank to notify them that the payment has been received and to update the client's account. Additionally, if the bank is used as a payment system for another company, then the bank will then package the data (minus their processing fees) and send the money to the company using the bank. The network layer manages all of this routing both internal and external. The IP address is used to verify that the data is coming from a trusted source (whitelist or blacklist in firewalls, on the Transport layer (4).</p>
           <h2><strong>Conclusion</strong></h2>
           <p>Every network will have some form of addressing and will ultimately need the network layer of the OSI Model. There are multiple forms of the protocols in the network layer but the main ones to know are IPv4 and IPv6.</p>
+          <p><a class="text-center" href="#top">Back To Top</a></p>
+        </div>
+      </div>
+
+
+      <div class="card py-4 h-100">
+        <div class="card-body text-center">
+          <h1 id="post10" class="mx-auto my-0 text-uppercase">Arch Net: Connecting Worlds Throughout the World</h1>
+          <h3 class="text-black-50 mx-auto mt-2 mb-5">September 27th, 2020</h3>
+          <h2><strong>Prompt</strong></h2>
+          <p>Consider an example of a real-word company, whether it be from your own work experience or even a business you may shop through (e.g., Amazon). Evaluate your knowledge of that company and discuss the following items:</p>
+          <ul>
+            <li>Describe the communication methods applied (e.g., email, chat)</li>
+            <li>Elaborate on a personal experience you have had with a network connection that has left you avoiding this site or company based on its inability to provide reliable connectivity for its service.</li>
+          </ul>
+          <h2><strong>Introduction</strong></h2>
+          <p>Network architecture is the concept and equipment surrounding a company/institution 's infrastructure. Network architecture can be cloud-based (remote-based equipment) or on-premise (on-prem). The difference is typically tied to cost and/or employment capabilities. The equipment surrounding network architecture include, but are not limited to:</p>
+            <ul>
+              <li>Router (gateway)</li>
+              <li>Switch</li>
+              <li>Load Balancer</li>
+              <li>Firewall</li>
+              <li>Hypervisor Box</li>
+              <li>Server (virtual or physical) Endpoint</li>
+              <li>Communication Cabling (fiber, ethernet, etc.)</li>
+            </ul>
+          <p>When we discuss the difference between cloud and on-prem, are only referring to the location the physical equipment is located (sometimes we are referring to the ownership of that equipment as well). For this discussion we will be discussing the network architecture of the communication platform Discord.</p>
+          <h2><strong>Network Architecture</strong></h2>
+          <p>Discord is a voice, text chat room/message, and video communication company. Discord hosts servers across the globe for clients to utilize in communicating with friends, co-workers, or even fans. Discord is widely used in the game and podcast streaming industries as it allows several people to group together to chat about a topic in real-time. Unfortunately, I was unable to find any documentation on what type of network architecture Discord uses. Since Discord is a type of IRC, internet relay chat, we will discuss briefly how that works in a network.</p>
+          <p>"IRC follows client-server model. It means that both client and server software is required in order to use it. <a href="https://www.geeksforgeeks.org/internet-relay-chat-irc/">GeeksForGeeks</a> When you, "the client" connect through software, to the server, you are able to send text messages to the server on a channel. This server then forwards the message to another server or allows another user to access and read the message. That user then replies with text and it is sent back to the server(s) through the channel where you can then read the reply message. This just one type of communication that Discord provides. Others include instant messaging and video communication. Ultimately, the client is issued access a server and connects to the server channel before sending and receiving messages from other clients who have access to the same server.</p>
+          <p>In this infrastructure  the network would consist of (at minimum) a gateway, switch, load balancer and server endpoint all connected via communication cabling. Although, the networking is unknown of Discord we can assume that each of these exist in the network architecture. Each component has its own weaknesses but few would include:</p>
+            <li>Access management at gateway</li>
+            <li>Multiple accounts on a server/hypervisor that could allow for cross traffic interception</li>
+            <li>Firewall detection rules either under applied or over applied meaning legitimate traffic is blocked when accessing or illegitimate traffic is allowed, respectively</li>
+          <p>Personally I have used Discord for over a year now with the <a href="https://www.offtherailspod.com">Off The Rails Cybersecuity Podcast</a> to communicate privately with my team and record shows as well as playing games with other players. Although my experience with Discord has been majorly pleasant, it has also not been great. I have had servers disconnect or go down, low connection issues, and account access issues. Discord has implemented the ability to change servers to a closer server to you, however, it can cause interruptions in streaming or recording of communication. Discord has had a history, being that is freeware (free to use software) with ideological groups, illegal activity groups, and abusive or harmful communication rooms. Discord has tried to mitigate these issues as the arise, but like any other freeware that works and works well, there will be groups that use it for nefarious purposes. Discord and other similar programs (Skype, Zoom, Google Hangouts, etc.) are great for communicating with people you may not ever have the opportunity to normally.</p>
+          <h2><strong>Conclusion</strong></h2>
+          <p>Network architecture makes up a wide area of concentration in the IT (information technology) space. Network operation centers exist as standalone business used by companies or as an integrated solution inside the company. Network operations centers are operated by network engineers and analysts that maintain the system hardware and mitigate problems before, during, and after they arrive. Due the increase of demand and the need for 24/7 global coverage network operations centers are manned around the clock. The need for constant and quick communication is vital to any business' plan and growth.</p>
           <p><a class="text-center" href="#top">Back To Top</a></p>
         </div>
       </div>
